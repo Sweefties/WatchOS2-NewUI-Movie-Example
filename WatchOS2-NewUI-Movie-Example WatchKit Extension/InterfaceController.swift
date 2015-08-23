@@ -12,15 +12,21 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet var movieUIPlayer: WKInterfaceMovie!
+    @IBOutlet var TitleLabel: WKInterfaceLabel!
+    // to loop video
+    let looping : Bool? = false
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
-        
         // Configure interface objects here.
+        setUIInitialContext()
     }
 
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
+        setUIVideoComponent()
     }
 
     override func didDeactivate() {
@@ -28,4 +34,20 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+}
+//MARK: - Interface Controller Extension
+extension InterfaceController {
+    // set UI Initial context
+    func setUIInitialContext() {
+        self.TitleLabel.setText("Burning Man\nIn the Air!")
+    }
+    // set UI Video Component
+    func setUIVideoComponent() {
+        let url = NSBundle.mainBundle().URLForResource("burningmanbyair", withExtension: "m4v")
+        let poster = WKImage(imageName: "thumbnail")
+        self.movieUIPlayer.setMovieURL(url!)
+        guard let isLoop = looping else { return }
+        self.movieUIPlayer.setLoops(isLoop)
+        self.movieUIPlayer.setPosterImage(poster)
+    }
 }

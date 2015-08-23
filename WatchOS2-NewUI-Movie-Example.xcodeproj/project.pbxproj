@@ -21,6 +21,8 @@
 		7E0CCAE41B8A3C8D0035068C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0CCAE31B8A3C8D0035068C /* InterfaceController.swift */; };
 		7E0CCAE61B8A3C8D0035068C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0CCAE51B8A3C8D0035068C /* ExtensionDelegate.swift */; };
 		7E0CCAE81B8A3C8D0035068C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E0CCAE71B8A3C8D0035068C /* Assets.xcassets */; };
+		7E0CCAFF1B8A3F570035068C /* burningmanbyair.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 7E0CCAFE1B8A3F570035068C /* burningmanbyair.m4v */; };
+		7E0CCB001B8A406E0035068C /* burningmanbyair.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 7E0CCAFE1B8A3F570035068C /* burningmanbyair.m4v */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +104,7 @@
 		7E0CCAE51B8A3C8D0035068C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		7E0CCAE71B8A3C8D0035068C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E0CCAE91B8A3C8D0035068C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E0CCAFE1B8A3F570035068C /* burningmanbyair.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = burningmanbyair.m4v; path = MoviePath/burningmanbyair.m4v; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +197,7 @@
 		7E0CCAD31B8A3C8D0035068C /* WatchOS2-NewUI-Movie-Example WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				7E0CCAFD1B8A3EEE0035068C /* MoviePath */,
 				7E0CCAD41B8A3C8D0035068C /* Interface.storyboard */,
 				7E0CCAD71B8A3C8D0035068C /* Assets.xcassets */,
 				7E0CCAD91B8A3C8D0035068C /* Info.plist */,
@@ -210,6 +214,14 @@
 				7E0CCAE91B8A3C8D0035068C /* Info.plist */,
 			);
 			path = "WatchOS2-NewUI-Movie-Example WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7E0CCAFD1B8A3EEE0035068C /* MoviePath */ = {
+			isa = PBXGroup;
+			children = (
+				7E0CCAFE1B8A3F570035068C /* burningmanbyair.m4v */,
+			);
+			name = MoviePath;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E0CCAD81B8A3C8D0035068C /* Assets.xcassets in Resources */,
+				7E0CCAFF1B8A3F570035068C /* burningmanbyair.m4v in Resources */,
 				7E0CCAD61B8A3C8D0035068C /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,6 +405,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E0CCB001B8A406E0035068C /* burningmanbyair.m4v in Resources */,
 				7E0CCAE81B8A3C8D0035068C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
