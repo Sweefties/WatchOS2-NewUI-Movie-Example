@@ -23,6 +23,7 @@
 		7E0CCAE81B8A3C8D0035068C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E0CCAE71B8A3C8D0035068C /* Assets.xcassets */; };
 		7E0CCAFF1B8A3F570035068C /* burningmanbyair.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 7E0CCAFE1B8A3F570035068C /* burningmanbyair.m4v */; };
 		7E0CCB001B8A406E0035068C /* burningmanbyair.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 7E0CCAFE1B8A3F570035068C /* burningmanbyair.m4v */; };
+		7E0CCB021B8A91190035068C /* Screenshots in Resources */ = {isa = PBXBuildFile; fileRef = 7E0CCB011B8A91190035068C /* Screenshots */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		7E0CCAE71B8A3C8D0035068C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E0CCAE91B8A3C8D0035068C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E0CCAFE1B8A3F570035068C /* burningmanbyair.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = burningmanbyair.m4v; path = MoviePath/burningmanbyair.m4v; sourceTree = "<group>"; };
+		7E0CCB011B8A91190035068C /* Screenshots */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Screenshots; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				7E0CCAD31B8A3C8D0035068C /* WatchOS2-NewUI-Movie-Example WatchKit App */,
 				7E0CCAE21B8A3C8D0035068C /* WatchOS2-NewUI-Movie-Example WatchKit Extension */,
 				7E0CCAA81B8A3C8C0035068C /* Products */,
+				7E0CCB011B8A91190035068C /* Screenshots */,
 			);
 			sourceTree = "<group>";
 		};
@@ -395,6 +398,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E0CCB021B8A91190035068C /* Screenshots in Resources */,
 				7E0CCAD81B8A3C8D0035068C /* Assets.xcassets in Resources */,
 				7E0CCAFF1B8A3F570035068C /* burningmanbyair.m4v in Resources */,
 				7E0CCAD61B8A3C8D0035068C /* Interface.storyboard in Resources */,
