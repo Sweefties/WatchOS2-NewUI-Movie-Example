@@ -12,6 +12,10 @@ WatchOS 2 Experiments - New UI Components - Video
 
 Tested on WatchOS2 Simulator.
 
+## Usage
+
+To run the example project, clone the repo.
+
 ### Extra Simple!
 
 ```swift
@@ -23,7 +27,5 @@ self.movieUIPlayer.setLoops(false)
 self.movieUIPlayer.setPosterImage(poster)
 ```
 
-## Usage
 
-To run the example project, clone the repo.
 
