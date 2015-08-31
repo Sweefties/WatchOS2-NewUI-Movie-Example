@@ -12,7 +12,7 @@ WatchOS 2 Experiments - New UI Components - Video
 
 ## Requirements
 
-- >= XCode 7 beta 5.
+- >= XCode 7 beta 5~.
 - >= Swift 2.
 
 Tested on WatchOS2 Simulator.
