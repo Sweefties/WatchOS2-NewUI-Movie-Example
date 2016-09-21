@@ -17,6 +17,10 @@ WatchOS 2 Experiments - New UI Components - Video
 
 Tested on WatchOS2 Simulator.
 
+## Important
+
+Get the `master` branch for XCode 8 / Swift 3 updated project.
+
 ## Usage
 
 To run the example project, clone the repo.
