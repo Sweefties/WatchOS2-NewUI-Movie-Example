@@ -17,8 +17,8 @@ class InterfaceController: WKInterfaceController {
     // to loop video
     let looping : Bool? = false
     
-    override func awakeWithContext(context: AnyObject?) {
-        super.awakeWithContext(context)
+    override func awake(withContext context: Any?) {
+        super.awake(withContext: context)
         // Configure interface objects here.
         setUIInitialContext()
     }
@@ -43,7 +43,7 @@ extension InterfaceController {
     }
     // set UI Video Component
     func setUIVideoComponent() {
-        let url = NSBundle.mainBundle().URLForResource("burningmanbyair", withExtension: "m4v")
+        let url = Bundle.main.url(forResource: "burningmanbyair", withExtension: "m4v")
         let poster = WKImage(imageName: "thumbnail")
         self.movieUIPlayer.setMovieURL(url!)
         guard let isLoop = looping else { return }
