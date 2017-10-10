@@ -35,6 +35,3 @@ self.movieUIPlayer.setMovieURL(url!)
 self.movieUIPlayer.setLoops(false)
 self.movieUIPlayer.setPosterImage(poster)
 ```
-
-
-
